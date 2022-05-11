@@ -21,7 +21,7 @@ template:
     - name: gke-app
       image: gcr.io/PROJECT_ID/IMAGE:TAG
       ports:
-      - containerPort: 80
+    - containerPort: 80
       resources:
         requests:
           cpu: 100m
